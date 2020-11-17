@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f2682f-1a02-4f9f-880d-4887503a7ee1" name="Default Changelist" comment="" />
+    <list default="true" id="b8f2682f-1a02-4f9f-880d-4887503a7ee1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testowe/testowe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +13,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kQaGRysMUXYx46Acr51XFfFC0V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605635172957</updated>
       <workItem from="1605635173980" duration="3170000" />
+      <workItem from="1605645526272" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -39,9 +50,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-799" y="259" key="Github.ShareDialog" timestamp="1605646252829">
+      <screen x="-1280" y="-131" width="1280" height="984" />
+    </state>
+    <state x="-799" y="259" key="Github.ShareDialog/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646252829" />
+    <state x="-824" y="66" key="Github.UntrackedFilesDialog" timestamp="1605646261015">
+      <screen x="-1280" y="-131" width="1280" height="984" />
+    </state>
+    <state x="-824" y="66" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646261015" />
+    <state x="-806" y="284" key="NewPhpFileDialog" timestamp="1605646626502">
+      <screen x="-1280" y="-131" width="1280" height="984" />
+    </state>
+    <state x="-806" y="284" key="NewPhpFileDialog/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646626502" />
+    <state x="-841" y="63" key="RollbackChangesDialog" timestamp="1605646726385">
+      <screen x="-1280" y="-131" width="1280" height="984" />
+    </state>
+    <state x="-841" y="63" key="RollbackChangesDialog/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646726385" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1605643365891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.-131.1280.984@0.0.1920.1040" timestamp="1605643365891" />
+    <state x="-1048" y="94" key="Vcs.Push.Dialog.v2" timestamp="1605646764160">
+      <screen x="-1280" y="-131" width="1280" height="984" />
+    </state>
+    <state x="-1048" y="94" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646764160" />
+    <state x="-823" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605646554760">
+      <screen x="-1280" y="-131" width="1280" height="984" />
+    </state>
+    <state x="-823" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646554760" />
   </component>
 </project>
