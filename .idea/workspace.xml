@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8f2682f-1a02-4f9f-880d-4887503a7ee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testowe/testowe.php" afterDir="false" />
+    <list default="true" id="b8f2682f-1a02-4f9f-880d-4887503a7ee1" name="Default Changelist" comment="Zadanie nr 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/calc_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/calc_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +43,25 @@
       <option name="presentableId" value="Default" />
       <updated>1605635172957</updated>
       <workItem from="1605635173980" duration="3170000" />
-      <workItem from="1605645526272" duration="1238000" />
+      <workItem from="1605645526272" duration="4661000" />
     </task>
+    <task id="LOCAL-00001" summary="testowy commit">
+      <created>1605646908576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605646908576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testowy commit" />
+    <MESSAGE value="Zadanie nr 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie nr 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-799" y="259" key="Github.ShareDialog" timestamp="1605646252829">
@@ -70,13 +84,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.-131.1280.984@0.0.1920.1040" timestamp="1605643365891" />
-    <state x="-1048" y="94" key="Vcs.Push.Dialog.v2" timestamp="1605646764160">
-      <screen x="-1280" y="-131" width="1280" height="984" />
+    <state x="348" y="238" key="Vcs.Push.Dialog.v2" timestamp="1605646914964">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1048" y="94" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646764160" />
-    <state x="-823" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605646554760">
-      <screen x="-1280" y="-131" width="1280" height="984" />
+    <state x="348" y="238" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.-131.1280.984@0.0.1920.1040" timestamp="1605646914964" />
+    <state x="686" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605646877889">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-823" y="275" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.-131.1280.984@-1280.-131.1280.984" timestamp="1605646554760" />
+    <state x="686" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.-131.1280.984@0.0.1920.1040" timestamp="1605646877889" />
   </component>
 </project>

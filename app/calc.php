@@ -10,35 +10,47 @@ require_once dirname(__FILE__).'/../config.php';
 
 $x = $_REQUEST ['x'];
 $y = $_REQUEST ['y'];
-$operation = $_REQUEST ['op'];
+$z = $_REQUEST ['z'];
+
+
 
 // 2. walidacja parametrów z przygotowaniem zmiennych dla widoku
 
 // sprawdzenie, czy parametry zostały przekazane
-if ( ! (isset($x) && isset($y) && isset($operation))) {
+if ( ! (isset($x) && isset($y)&& isset($z))) {
 	//sytuacja wystąpi kiedy np. kontroler zostanie wywołany bezpośrednio - nie z formularza
 	$messages [] = 'Błędne wywołanie aplikacji. Brak jednego z parametrów.';
 }
 
 // sprawdzenie, czy potrzebne wartości zostały przekazane
 if ( $x == "") {
-	$messages [] = 'Nie podano liczby 1';
+	$messages [] = 'Nie podano kwoty';
 }
 if ( $y == "") {
-	$messages [] = 'Nie podano liczby 2';
+	$messages [] = 'Nie podano lat kredytu';
 }
-
+if ( $z == "") {
+    $messages [] = 'Nie podano oprocentowania';
+}
 //nie ma sensu walidować dalej gdy brak parametrów
 if (empty( $messages )) {
 	
 	// sprawdzenie, czy $x i $y są liczbami całkowitymi
 	if (! is_numeric( $x )) {
-		$messages [] = 'Pierwsza wartość nie jest liczbą całkowitą';
+		$messages [] = 'Kwota nie jest liczbą całkowitą';
 	}
 	
 	if (! is_numeric( $y )) {
-		$messages [] = 'Druga wartość nie jest liczbą całkowitą';
-	}	
+		$messages [] = 'Lata kredytu nie są liczbą całkowitą';
+	}
+
+    if (! is_numeric( $z )) {
+        $messages [] = 'Oprocentowanie nie jest liczbą całkowitą';
+    }
+
+//    if ($z>100) {
+//        $messages [] = 'Oprocentowanie nie moze być większe niz 100 :D';
+//    }
 
 }
 
@@ -49,22 +61,14 @@ if (empty ( $messages )) { // gdy brak błędów
 	//konwersja parametrów na int
 	$x = intval($x);
 	$y = intval($y);
-	
-	//wykonanie operacji
-	switch ($operation) {
-		case 'minus' :
-			$result = $x - $y;
-			break;
-		case 'times' :
-			$result = $x * $y;
-			break;
-		case 'div' :
-			$result = $x / $y;
-			break;
-		default :
-			$result = $x + $y;
-			break;
-	}
+    $z = intval($z);
+
+
+    //wykonanie operacji
+    $result=($x+(($x/100)*$z))/($y*12);
+
+
+
 }
 
 // 4. Wywołanie widoku z przekazaniem zmiennych
