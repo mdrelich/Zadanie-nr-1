@@ -3,19 +3,28 @@
 <head>
 <meta charset="utf-8" />
 <title>Kalkulator Kredytowy</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 </head>
 <body>
+
+<div style="width:90%; margin: 2em auto;">
+    <a href="<?php print(_APP_ROOT); ?>/app/inna_chroniona.php" class="pure-button">kolejna chroniona strona</a>
+    <a href="<?php print(_APP_ROOT); ?>/app/security/logout.php" class="pure-button pure-button-active">Wyloguj</a>
+</div>
+
+<div style="width:90%; margin: 12em auto;color:slategrey;background-color:lightgoldenrodyellow">
 <center>
-Kalkulator Kredytowy
+    <legend>Kalkulator Kredytowy</legend>
 </br>
-Wpisz wszystkie potrzebne parametry żeby obliczyć swój kredyt
-<form action="<?php print(_APP_URL);?>/app/calc.php" method="br">
+    <legend>Wpisz wszystkie potrzebne parametry żeby obliczyć swój kredyt</legend>
+    <br></br>
+<form action="<?php print(_APP_URL);?>/app/calc.php" method="post" class="pure-form pure-form-stacked">
 	<label for="id_x">Kwota </label>
-	<input id="id_x" type="text" name="x" value="<?php if (isset($x)) print($x); ?>" /><br />
+	<input id="id_x" type="text" name="x" value="<?php out($x) ?>" /><br />
 	<label for="id_y">Na ile kredyt(w latach) </label>
-	<input id="id_y" type="text" name="y" value="<?php if (isset($y)) print($y); ?>" /><br />
+	<input id="id_y" type="text" name="y" value="<?php out($y) ?>" /><br />
     <label for="id_z">Oprocentowanie("prosze podać procenty (5%=5)) </label>
-    <input id="id_z" type="text" name="z" value="<?php if (isset($z)) print($z); ?>" /><br />
+    <input id="id_z" type="text" name="z" value="<?php out($z) ?>" /><br />
     <input type="submit" value="Oblicz" />
 </form>
 
@@ -38,5 +47,6 @@ if (isset($messages)) {
 </div>
 <?php } ?>
 </center>
+</div>
 </body>
 </html>
